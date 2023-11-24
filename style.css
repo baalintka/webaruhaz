@@ -1,0 +1,65 @@
+*/{
+    max-width: 100%;
+    
+}
+img{
+    max-width: 100%;
+}
+main{
+    
+    width:80%;
+    margin: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  article{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+ .tajkep{
+    border-radius: 5%;
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 5px;
+  }
+ aside{
+    border-radius: 3%;
+    margin: 10px;
+    padding: 5px;
+    background-color: aquamarine;
+  }
+  #grid{
+    
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+  }
+  .ar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .ar button{
+    height: 25px;
+    margin: auto;
+  }
