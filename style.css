@@ -63,3 +63,29 @@ ul {
     height: 25px;
     margin: auto;
   }
+  @media screen and (max-width: 750px){
+    
+    article{
+   
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+      }
+      #grid{
+    
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+      }
+}
+@media screen and (max-width: 450px){
+    
+    article{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    #grid{
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+}
